@@ -16,12 +16,12 @@ export default function Home() {
           </h2>
           <div className="mt-64 z-10 flex gap-4">
             <Link href={"/login"}>
-              <Button variant="secondary" className="h-12 w-full text-base">
+              <Button variant="secondary" className="h-12 w-24 text-base">
                 login
               </Button>
             </Link>
             <Link href={"/register"}>
-              <Button variant="default" className="h-12 w-full text-base">
+              <Button variant="default" className="h-12 w-24 text-base">
                 register
               </Button>
             </Link>
